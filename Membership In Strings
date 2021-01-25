@@ -1,0 +1,27 @@
+Question- You just need to take string and a character as an input and print 'Yes' if that character is present in that string otherwise print 'No'.
+
+Sol - 
+import java.io.*;
+import java.util.*;
+public class CandidateCode {
+   public static void main(String args[] ) throws Exception {
+      Scanner scan=new Scanner(System.in);
+      String s=scan.nextLine();
+      String r=scan.next();
+      int f=0;
+for(int i=0;i<s.length();i++){
+      if(s.charAt(i)==r.charAt(0)){
+       f=1;
+      }
+      
+
+}
+
+if(f==1)
+{System.out.print("Yes");
+}else if(f==0)
+{System.out.print("No");
+}
+
+   }
+}
