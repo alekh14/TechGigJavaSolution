@@ -1,0 +1,14 @@
+Question - You just need to take string input and return the string by capitalizing the first character of the string.
+Solution -
+import java.io.*;
+import java.util.*;
+public class CandidateCode {
+   public static void main(String args[] ) throws Exception {
+
+	Scanner scan=new Scanner(System.in);
+   String n=scan.nextLine();
+   String a=Character.toString(n.charAt(0));
+   System.out.print(a.toUpperCase()+n.substring(1,n.length()));
+
+   }
+}
