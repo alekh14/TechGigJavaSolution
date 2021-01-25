@@ -1,0 +1,16 @@
+Question -You just need to read 5 strings from stdin and print them to stdout.
+
+Sol- import java.io.*;
+import java.util.*;
+public class CandidateCode {
+    public static void main(String args[] ) throws Exception {
+
+    	Scanner scan=new Scanner(System.in);
+    	String a=scan.nextLine();
+String b=scan.nextLine();
+String c=scan.nextLine();
+String d=scan.nextLine();
+String e=scan.nextLine();
+System.out.println(a+"\n"+b+"\n"+c+"\n"+d+"\n"+e);
+   }
+}
