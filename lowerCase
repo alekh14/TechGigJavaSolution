@@ -1,0 +1,26 @@
+Question - You just need to take string input and checks whether all the case-based characters (letters) of the string are lowercase.
+
+Sol- 
+import java.io.*;
+import java.util.*;
+public class CandidateCode {
+   public static void main(String args[] ) throws Exception {
+
+	Scanner scan = new Scanner(System.in);
+	String ch=scan.next();
+	int l=ch.length();
+	int c=0;
+	for(int i=0;i<l;i++){
+	    int a=ch.charAt(i);
+	    if(a>=97&&a<=122)
+	    {
+	        c++;
+	    }
+	    
+	}
+	if(c==l){System.out.print("True");}
+	else
+	System.out.print("False");
+
+   }
+}
