@@ -1,0 +1,15 @@
+Question- You just need to take a string and a integer as an input and repeat the string upto the count given as in integer.
+Sol -import java.io.*;
+import java.util.*;
+public class CandidateCode {
+   public static void main(String args[] ) throws Exception {
+
+Scanner scan=new Scanner(System.in);
+String b=scan.next();
+int n=scan.nextInt();
+for(int i=0;i<n;i++)
+{System.out.print(b);
+
+}
+   }
+}
